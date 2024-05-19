@@ -53,7 +53,8 @@ ID = 6762002309
 
 
 
-
+requests.post(f'https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text=Bot started ....')
+ 
 
 
 def linked():

@@ -150,6 +150,7 @@ def info(email):
 [↩️] 𝐔𝐫𝐥 ==> https://www.instagram.com/{user}
 ⋘─────━❤️🌚━─────⋙
 𝐁𝐘 :  @attaullah
+by b4b agent
 '''
         requests.post(f'https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text={tlg}')
         print(F + tlg)
